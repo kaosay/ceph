@@ -1,0 +1,8 @@
+csiConfig:
+  - clusterID: 859a126c
+    monitors:
+      - 172.1.2.1:6789
+      - 172.1.2.1:6789
+      - 172.1.2.1:6789
+cephfs: 
+  enabled: true

@@ -25,3 +25,4 @@ ceph auth caps client.jingsuai \
 
 sudo ceph auth get client.jingsuai
 
+cat /etc/ceph/ceph.conf 

@@ -11,7 +11,8 @@ sudo ceph osd pool set jingsuai-rbd allow_ec_overwrites true
 
 sudo ceph osd pool  set jingsuai-rbd fast_read 1
 
-sudo ceph osd pool create jingsuai-rbd.meta 128
+# sudo ceph osd pool create jingsuai-rbd.meta 128
+sudo ceph osd pool create jingsuai-rbd.meta
 
 
 sudo ceph osd pool application enable jingsuai-rbd rbd

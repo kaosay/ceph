@@ -1,7 +1,8 @@
 #!/bin/bash
 # create rbd erasure on ceph
 
-
+# if only 3 osd,must use ec-profile k=2 m=1
+# sudo ceph osd pool create jingsuai-rbd erasure ec-profile
 sudo ceph osd pool create jingsuai-rbd erasure
 
 sudo ceph osd pool get jingsuai-rbd all

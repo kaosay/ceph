@@ -17,7 +17,7 @@ sudo ceph osd pool create jingsuai-rbd.meta 128
 sudo ceph osd pool application enable jingsuai-rbd rbd
 sudo ceph osd pool application enable jingsuai-rbd.meta rbd
 
-ceph auth caps client.jingsuai \
+sudo ceph auth caps client.jingsuai \
   mgr 'allow *' \
   mon 'allow r' \
   mds 'allow rw, allow rws path=/' \

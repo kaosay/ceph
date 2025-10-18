@@ -1,0 +1,8 @@
+csiConfig:
+  - clusterID: 02d44328-780d-11f0-b5d3-33638e220638
+    monitors:
+      - 10.6.136.1:6789
+      - 10.6.136.2:6789
+      - 10.6.136.3:6789
+cephfs: 
+  enabled: true

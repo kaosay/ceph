@@ -24,3 +24,10 @@ ceph fs ls
 # Show cluster’s health.
 ceph health {detail}
 
+# Delete pool
+sudo ceph osd pool rm test-data test-data --yes-i-really-really-mean-it
+
+# Delete fs
+sudo ceph fs status jinsuai-ec
+sudo ceph fs fail jinsuai-ec
+sudo ceph fs rm jinsuai-ec --yes-i-really-mean-it
